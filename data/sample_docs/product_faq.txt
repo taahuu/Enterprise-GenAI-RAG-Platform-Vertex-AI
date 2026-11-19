@@ -1,0 +1,19 @@
+Northwind Insight – Product FAQ
+
+What plans does Northwind Insight offer?
+Northwind Insight is offered in three plans. Starter costs $49 per user per month, Business costs $99 per user per month, and Enterprise is priced by custom quote.
+
+Does Northwind Insight support single sign-on?
+SAML single sign-on (SSO) is available on the Business and Enterprise plans. The Starter plan supports email and password login only.
+
+How long is data retained?
+The Starter plan retains dashboard data for 13 months and the Business plan retains it for 36 months. Enterprise customers can configure a custom retention period.
+
+What are the API rate limits?
+The Starter plan allows 100 API requests per minute. The Business plan allows 1,000 requests per minute. Requests above the limit receive an HTTP 429 response.
+
+What is the uptime guarantee?
+Business and Enterprise plans are covered by a 99.9% monthly uptime SLA. If uptime falls below the SLA, customers receive service credits.
+
+How do I contact support?
+Starter customers get email support on business days. Business customers get 24x7 chat support. Enterprise customers get a named technical account manager.

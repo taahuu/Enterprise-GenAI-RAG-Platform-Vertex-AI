@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest>=8.0
+httpx>=0.27
+
+# optional extras
+# faiss-cpu>=1.8        # VECTOR_BACKEND=faiss
+# google-genai>=1.0     # EMBEDDING_BACKEND=vertex / LLM_BACKEND=vertex

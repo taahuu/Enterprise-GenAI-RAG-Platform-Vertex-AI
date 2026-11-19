@@ -1,0 +1,33 @@
+{
+  "answerable": [
+    {"question": "How many days of annual leave do employees get?", "expected_source": "hr_leave_policy.md", "expected_keywords": ["24"]},
+    {"question": "How many unused vacation days can be carried forward?", "expected_source": "hr_leave_policy.md", "expected_keywords": ["10"]},
+    {"question": "When do I need a medical certificate for sick leave?", "expected_source": "hr_leave_policy.md", "expected_keywords": ["3"]},
+    {"question": "How long is parental leave for the primary caregiver?", "expected_source": "hr_leave_policy.md", "expected_keywords": ["26"]},
+    {"question": "What is the minimum password length?", "expected_source": "it_security_policy.md", "expected_keywords": ["14"]},
+    {"question": "How quickly must a lost laptop be reported?", "expected_source": "it_security_policy.md", "expected_keywords": ["1 hour"]},
+    {"question": "When is the VPN required?", "expected_source": "it_security_policy.md", "expected_keywords": ["public"]},
+    {"question": "Within how many days must expenses be submitted?", "expected_source": "expense_policy.md", "expected_keywords": ["30"]},
+    {"question": "What is the hotel reimbursement limit per night?", "expected_source": "expense_policy.md", "expected_keywords": ["220"]},
+    {"question": "Who approves expense claims above $1,000?", "expected_source": "expense_policy.md", "expected_keywords": ["director"]},
+    {"question": "How much does the Business plan cost per user?", "expected_source": "product_faq.txt", "expected_keywords": ["99"]},
+    {"question": "Which plans include SAML single sign-on?", "expected_source": "product_faq.txt", "expected_keywords": ["Business"]},
+    {"question": "What is the API rate limit on the Starter plan?", "expected_source": "product_faq.txt", "expected_keywords": ["100"]},
+    {"question": "How fast must we respond to a SEV1 incident?", "expected_source": "incident_response_runbook.md", "expected_keywords": ["15 minutes"]},
+    {"question": "How often is the status page updated during an incident?", "expected_source": "incident_response_runbook.md", "expected_keywords": ["30 minutes"]},
+    {"question": "When must the postmortem be published?", "expected_source": "incident_response_runbook.md", "expected_keywords": ["5 business days"]},
+    {"question": "Give me name of the person who approves expense claims above $1,000", "expected_source": "expense_policy.md", "expected_keywords": ["director"]},
+    {"question": "What title is used for the person who approves larger expense claims?", "expected_source": "expense_policy.md", "expected_keywords": ["director"]},
+    {"question": "Tell me the name of the manager who approves claims up to $1,000", "expected_source": "expense_policy.md", "expected_keywords": ["line manager"]},
+    {"question": "Who is mentioned for Enterprise technical support?", "expected_source": "product_faq.txt", "expected_keywords": ["technical account manager"]},
+    {"question": "Name the support title available to Enterprise customers", "expected_source": "product_faq.txt", "expected_keywords": ["technical account manager"]}
+  ],
+  "unanswerable": [
+    "What is the capital of Australia?",
+    "Give me a recipe for chocolate brownies",
+    "Who won the football world cup in 2018?",
+    "What is the population of Mars?",
+    "How do I bake a sourdough bread starter?",
+    "Which country hosted the 2026 Winter Olympics?"
+  ]
+}
